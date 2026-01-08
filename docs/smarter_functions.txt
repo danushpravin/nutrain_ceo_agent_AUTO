@@ -1,0 +1,167 @@
+🥇 TIER 1 — TRUE PROFIT ENGINE (MOST IMPORTANT NEXT)
+
+Right now your profit_by_product:
+
+❌ Does NOT include:
+
+Marketing cost
+
+Promotions cost
+
+Channel-wise margins
+
+Region-wise margins
+
+✅ Add These (HIGH PRIORITY)
+1️⃣ Profit by Channel
+def true_profit_by_channel(sales_df, unit_df, marketing_df):
+
+
+Lets your agent say:
+
+“Instagram is profitable, Google is burning cash.”
+
+2️⃣ Profit by Region
+def true_profit_by_region(sales_df, unit_df):
+
+
+Lets your agent say:
+
+“Delhi looks big in revenue but is actually low-margin.”
+
+3️⃣ Contribution Margin per Order
+def contribution_margin_per_unit(sales_df, unit_df):
+
+
+This is what investors actually care about.
+
+4️⃣ Fake Growth Detector
+def fake_growth_products(sales_df, unit_df):
+
+
+Returns SKUs with:
+
+High revenue
+
+Negative profit
+
+🥈 TIER 2 — DEMAND & FORECASTING (OPS INTELLIGENCE)
+
+Right now your agent is backward-looking only. You want forward-looking power.
+
+✅ Add These
+5️⃣ Units Sold Trend
+def units_sold_by_month(sales_df):
+
+
+So it can say:
+
+“Banana Oats demand is declining 3 months straight.”
+
+6️⃣ Rolling 3-Month Demand Forecast
+def forecast_next_month_units(sales_df):
+
+
+So later:
+
+“Produce 18,500 Vanilla next month.”
+
+7️⃣ Inventory Coverage (Days of Stock Left)
+def days_of_inventory_left(inventory_df, sales_df):
+
+
+So it can say:
+
+“You’ll stock out of Choco Coffee in 11 days.”
+
+🥉 TIER 3 — CUSTOMER LIFECYCLE INTELLIGENCE (GROWTH LEVERS)
+
+Right now you only see:
+
+Churn rate
+
+Avg LTV
+
+But you don’t see:
+
+Who churns
+
+When churn happens
+
+What drives churn
+
+✅ Add These
+8️⃣ Churn by Segment
+def churn_by_segment(customers_df, segments_df):
+
+
+So it can say:
+
+“Students are churning twice as fast as professionals.”
+
+9️⃣ LTV by Region
+def ltv_by_region(customers_df, sales_df):
+
+
+So it can say:
+
+“Bangalore customers are 2× more valuable.”
+
+🔟 Repeat vs One-Time Buyers
+def repeat_purchase_rate(customers_df):
+
+🏆 TIER 4 — EXECUTIVE / INVESTOR METRICS (OPTIONAL LATER)
+
+These turn your agent into a boardroom assistant.
+
+✅ Advanced but Insane Value
+11️⃣ Monthly Burn Rate
+def monthly_burn(marketing_df, unit_df, sales_df):
+
+12️⃣ Cash Runway Estimator
+def cash_runway(current_cash, burn_rate):
+
+13️⃣ ROI of Promotions
+def promo_roi(promos_df, unit_df):
+
+✅ THE MOST IMPORTANT ADVICE
+
+You do NOT need all of this now.
+
+Your perfect next 5 functions are:
+
+✅ If I were your CTO, I’d add only these first:
+
+true_profit_by_channel
+
+true_profit_by_region
+
+units_sold_by_month
+
+forecast_next_month_units
+
+days_of_inventory_left
+
+These five turn your agent into:
+
+🧠 “What should I scale?”
+🧮 “What will break next?”
+💰 “What actually makes money?”
+
+Which is exactly founder-grade intelligence.
+
+✅ Tell Me How You Want to Proceed
+
+Reply with only one number:
+
+1 → Build True Profit Engine (channel + region)
+
+2 → Build Demand Forecasting
+
+3 → Build Stockout Prediction
+
+4 → Build Customer Churn Intelligence
+
+5 → Go full beast mode and stack all
+
+And I’ll give you the exact functions + tools + agent wiring for that path.

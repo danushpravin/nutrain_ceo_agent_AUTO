@@ -1,0 +1,1114 @@
+date,product,opening_stock,units_produced,units_dispatched,closing_stock,lost_demand,stockout_flag
+2024-01-01,Nutrain Vanilla,150,130,125,155,0,No
+2024-01-01,Nutrain Choco Coffee,150,85,101,134,0,No
+2024-01-01,Nutrain Banana Oats,150,74,65,159,0,No
+2024-01-02,Nutrain Vanilla,155,105,131,129,0,No
+2024-01-02,Nutrain Choco Coffee,134,91,87,138,0,No
+2024-01-02,Nutrain Banana Oats,159,67,69,157,0,No
+2024-01-03,Nutrain Vanilla,129,49,130,48,0,No
+2024-01-03,Nutrain Choco Coffee,138,104,101,141,0,No
+2024-01-03,Nutrain Banana Oats,157,68,54,171,0,No
+2024-01-04,Nutrain Vanilla,48,109,104,53,0,No
+2024-01-04,Nutrain Choco Coffee,141,98,77,162,0,No
+2024-01-04,Nutrain Banana Oats,171,60,51,180,0,No
+2024-01-05,Nutrain Vanilla,53,110,122,41,0,No
+2024-01-05,Nutrain Choco Coffee,162,86,102,146,0,No
+2024-01-05,Nutrain Banana Oats,180,67,58,189,0,No
+2024-01-06,Nutrain Vanilla,41,108,128,21,0,No
+2024-01-06,Nutrain Choco Coffee,146,82,103,125,0,No
+2024-01-06,Nutrain Banana Oats,189,71,68,192,0,No
+2024-01-07,Nutrain Vanilla,21,135,110,46,0,No
+2024-01-07,Nutrain Choco Coffee,125,93,80,138,0,No
+2024-01-07,Nutrain Banana Oats,192,66,52,206,0,No
+2024-01-08,Nutrain Vanilla,46,131,137,40,0,No
+2024-01-08,Nutrain Choco Coffee,138,95,92,141,0,No
+2024-01-08,Nutrain Banana Oats,206,71,65,212,0,No
+2024-01-09,Nutrain Vanilla,40,40,80,0,52,Yes
+2024-01-09,Nutrain Choco Coffee,141,98,98,141,0,No
+2024-01-09,Nutrain Banana Oats,212,61,59,214,0,No
+2024-01-10,Nutrain Vanilla,0,122,116,6,0,No
+2024-01-10,Nutrain Choco Coffee,141,84,94,131,0,No
+2024-01-10,Nutrain Banana Oats,214,66,56,224,0,No
+2024-01-11,Nutrain Vanilla,6,134,126,14,0,No
+2024-01-11,Nutrain Choco Coffee,131,85,93,123,0,No
+2024-01-11,Nutrain Banana Oats,224,58,65,217,0,No
+2024-01-12,Nutrain Vanilla,14,108,122,0,10,Yes
+2024-01-12,Nutrain Choco Coffee,123,101,79,145,0,No
+2024-01-12,Nutrain Banana Oats,217,67,56,228,0,No
+2024-01-13,Nutrain Vanilla,0,128,128,0,9,Yes
+2024-01-13,Nutrain Choco Coffee,145,33,85,93,0,No
+2024-01-13,Nutrain Banana Oats,228,59,52,235,0,No
+2024-01-14,Nutrain Vanilla,0,35,35,0,73,Yes
+2024-01-14,Nutrain Choco Coffee,93,104,80,117,0,No
+2024-01-14,Nutrain Banana Oats,235,57,56,236,0,No
+2024-01-15,Nutrain Vanilla,0,114,114,0,24,Yes
+2024-01-15,Nutrain Choco Coffee,117,104,84,137,0,No
+2024-01-15,Nutrain Banana Oats,236,63,59,240,0,No
+2024-01-16,Nutrain Vanilla,0,48,48,0,66,Yes
+2024-01-16,Nutrain Choco Coffee,137,83,85,135,0,No
+2024-01-16,Nutrain Banana Oats,240,56,51,245,0,No
+2024-01-17,Nutrain Vanilla,0,133,133,0,0,Yes
+2024-01-17,Nutrain Choco Coffee,135,102,103,134,0,No
+2024-01-17,Nutrain Banana Oats,245,20,55,210,0,No
+2024-01-18,Nutrain Vanilla,0,120,112,8,0,No
+2024-01-18,Nutrain Choco Coffee,134,96,98,132,0,No
+2024-01-18,Nutrain Banana Oats,210,62,56,216,0,No
+2024-01-19,Nutrain Vanilla,8,30,38,0,88,Yes
+2024-01-19,Nutrain Choco Coffee,132,105,79,158,0,No
+2024-01-19,Nutrain Banana Oats,216,66,53,229,0,No
+2024-01-20,Nutrain Vanilla,0,105,104,1,0,No
+2024-01-20,Nutrain Choco Coffee,158,96,91,163,0,No
+2024-01-20,Nutrain Banana Oats,229,61,54,236,0,No
+2024-01-21,Nutrain Vanilla,1,133,131,3,0,No
+2024-01-21,Nutrain Choco Coffee,163,99,91,171,0,No
+2024-01-21,Nutrain Banana Oats,236,70,60,246,0,No
+2024-01-22,Nutrain Vanilla,3,28,31,0,91,Yes
+2024-01-22,Nutrain Choco Coffee,171,99,85,185,0,No
+2024-01-22,Nutrain Banana Oats,246,56,68,234,0,No
+2024-01-23,Nutrain Vanilla,0,130,104,26,0,No
+2024-01-23,Nutrain Choco Coffee,185,39,83,141,0,No
+2024-01-23,Nutrain Banana Oats,234,71,67,238,0,No
+2024-01-24,Nutrain Vanilla,26,110,109,27,0,No
+2024-01-24,Nutrain Choco Coffee,141,88,78,151,0,No
+2024-01-24,Nutrain Banana Oats,238,68,65,241,0,No
+2024-01-25,Nutrain Vanilla,27,120,112,35,0,No
+2024-01-25,Nutrain Choco Coffee,151,89,96,144,0,No
+2024-01-25,Nutrain Banana Oats,241,61,69,233,0,No
+2024-01-26,Nutrain Vanilla,35,122,114,43,0,No
+2024-01-26,Nutrain Choco Coffee,144,100,85,159,0,No
+2024-01-26,Nutrain Banana Oats,233,62,54,241,0,No
+2024-01-27,Nutrain Vanilla,43,112,120,35,0,No
+2024-01-27,Nutrain Choco Coffee,159,97,91,165,0,No
+2024-01-27,Nutrain Banana Oats,241,64,59,246,0,No
+2024-01-28,Nutrain Vanilla,35,107,104,38,0,No
+2024-01-28,Nutrain Choco Coffee,165,93,87,171,0,No
+2024-01-28,Nutrain Banana Oats,246,64,62,248,0,No
+2024-01-29,Nutrain Vanilla,38,34,72,0,43,Yes
+2024-01-29,Nutrain Choco Coffee,171,87,77,181,0,No
+2024-01-29,Nutrain Banana Oats,248,18,66,200,0,No
+2024-01-30,Nutrain Vanilla,0,127,109,18,0,No
+2024-01-30,Nutrain Choco Coffee,181,81,84,178,0,No
+2024-01-30,Nutrain Banana Oats,200,66,59,207,0,No
+2024-01-31,Nutrain Vanilla,18,135,125,28,0,No
+2024-01-31,Nutrain Choco Coffee,178,85,81,182,0,No
+2024-01-31,Nutrain Banana Oats,207,65,66,206,0,No
+2024-02-01,Nutrain Vanilla,28,132,137,23,0,No
+2024-02-01,Nutrain Choco Coffee,182,94,77,199,0,No
+2024-02-01,Nutrain Banana Oats,206,25,57,174,0,No
+2024-02-02,Nutrain Vanilla,23,120,114,29,0,No
+2024-02-02,Nutrain Choco Coffee,199,36,92,143,0,No
+2024-02-02,Nutrain Banana Oats,174,72,68,178,0,No
+2024-02-03,Nutrain Vanilla,29,35,64,0,51,Yes
+2024-02-03,Nutrain Choco Coffee,143,39,88,94,0,No
+2024-02-03,Nutrain Banana Oats,178,61,57,182,0,No
+2024-02-04,Nutrain Vanilla,0,125,125,0,7,Yes
+2024-02-04,Nutrain Choco Coffee,94,94,83,105,0,No
+2024-02-04,Nutrain Banana Oats,182,61,56,187,0,No
+2024-02-05,Nutrain Vanilla,0,132,113,19,0,No
+2024-02-05,Nutrain Choco Coffee,105,86,92,99,0,No
+2024-02-05,Nutrain Banana Oats,187,63,64,186,0,No
+2024-02-06,Nutrain Vanilla,19,48,67,0,43,Yes
+2024-02-06,Nutrain Choco Coffee,99,102,81,120,0,No
+2024-02-06,Nutrain Banana Oats,186,28,57,157,0,No
+2024-02-07,Nutrain Vanilla,0,105,105,0,24,Yes
+2024-02-07,Nutrain Choco Coffee,120,88,95,113,0,No
+2024-02-07,Nutrain Banana Oats,157,69,53,173,0,No
+2024-02-08,Nutrain Vanilla,0,121,114,7,0,No
+2024-02-08,Nutrain Choco Coffee,113,105,99,119,0,No
+2024-02-08,Nutrain Banana Oats,173,65,58,180,0,No
+2024-02-09,Nutrain Vanilla,7,130,113,24,0,No
+2024-02-09,Nutrain Choco Coffee,119,104,101,122,0,No
+2024-02-09,Nutrain Banana Oats,180,58,69,169,0,No
+2024-02-10,Nutrain Vanilla,24,133,105,52,0,No
+2024-02-10,Nutrain Choco Coffee,122,97,86,133,0,No
+2024-02-10,Nutrain Banana Oats,169,58,66,161,0,No
+2024-02-11,Nutrain Vanilla,52,105,119,38,0,No
+2024-02-11,Nutrain Choco Coffee,133,102,81,154,0,No
+2024-02-11,Nutrain Banana Oats,161,68,51,178,0,No
+2024-02-12,Nutrain Vanilla,38,126,113,51,0,No
+2024-02-12,Nutrain Choco Coffee,154,97,100,151,0,No
+2024-02-12,Nutrain Banana Oats,178,72,67,183,0,No
+2024-02-13,Nutrain Vanilla,51,115,119,47,0,No
+2024-02-13,Nutrain Choco Coffee,151,85,95,141,0,No
+2024-02-13,Nutrain Banana Oats,183,59,65,177,0,No
+2024-02-14,Nutrain Vanilla,47,110,136,21,0,No
+2024-02-14,Nutrain Choco Coffee,141,104,81,164,0,No
+2024-02-14,Nutrain Banana Oats,177,73,51,199,0,No
+2024-02-15,Nutrain Vanilla,21,130,110,41,0,No
+2024-02-15,Nutrain Choco Coffee,164,86,100,150,0,No
+2024-02-15,Nutrain Banana Oats,199,61,62,198,0,No
+2024-02-16,Nutrain Vanilla,41,26,67,0,43,Yes
+2024-02-16,Nutrain Choco Coffee,150,103,90,163,0,No
+2024-02-16,Nutrain Banana Oats,198,72,59,211,0,No
+2024-02-17,Nutrain Vanilla,0,123,123,0,14,Yes
+2024-02-17,Nutrain Choco Coffee,163,92,99,156,0,No
+2024-02-17,Nutrain Banana Oats,211,66,56,221,0,No
+2024-02-18,Nutrain Vanilla,0,114,114,0,22,Yes
+2024-02-18,Nutrain Choco Coffee,156,103,87,172,0,No
+2024-02-18,Nutrain Banana Oats,221,59,59,221,0,No
+2024-02-19,Nutrain Vanilla,0,118,118,0,1,Yes
+2024-02-19,Nutrain Choco Coffee,172,89,78,183,0,No
+2024-02-19,Nutrain Banana Oats,221,13,52,182,0,No
+2024-02-20,Nutrain Vanilla,0,106,106,0,30,Yes
+2024-02-20,Nutrain Choco Coffee,183,82,103,162,0,No
+2024-02-20,Nutrain Banana Oats,182,73,66,189,0,No
+2024-02-21,Nutrain Vanilla,0,114,114,0,1,Yes
+2024-02-21,Nutrain Choco Coffee,162,83,97,148,0,No
+2024-02-21,Nutrain Banana Oats,189,69,53,205,0,No
+2024-02-22,Nutrain Vanilla,0,133,133,0,5,Yes
+2024-02-22,Nutrain Choco Coffee,148,89,89,148,0,No
+2024-02-22,Nutrain Banana Oats,205,29,55,179,0,No
+2024-02-23,Nutrain Vanilla,0,121,121,0,7,Yes
+2024-02-23,Nutrain Choco Coffee,148,104,81,171,0,No
+2024-02-23,Nutrain Banana Oats,179,57,56,180,0,No
+2024-02-24,Nutrain Vanilla,0,55,55,0,56,Yes
+2024-02-24,Nutrain Choco Coffee,171,88,89,170,0,No
+2024-02-24,Nutrain Banana Oats,180,71,62,189,0,No
+2024-02-25,Nutrain Vanilla,0,120,120,0,0,Yes
+2024-02-25,Nutrain Choco Coffee,170,103,101,172,0,No
+2024-02-25,Nutrain Banana Oats,189,74,52,211,0,No
+2024-02-26,Nutrain Vanilla,0,126,109,17,0,No
+2024-02-26,Nutrain Choco Coffee,172,84,80,176,0,No
+2024-02-26,Nutrain Banana Oats,211,59,56,214,0,No
+2024-02-27,Nutrain Vanilla,17,109,118,8,0,No
+2024-02-27,Nutrain Choco Coffee,176,47,94,129,0,No
+2024-02-27,Nutrain Banana Oats,214,68,65,217,0,No
+2024-02-28,Nutrain Vanilla,8,116,111,13,0,No
+2024-02-28,Nutrain Choco Coffee,129,101,91,139,0,No
+2024-02-28,Nutrain Banana Oats,217,63,56,224,0,No
+2024-02-29,Nutrain Vanilla,13,130,136,7,0,No
+2024-02-29,Nutrain Choco Coffee,139,82,77,144,0,No
+2024-02-29,Nutrain Banana Oats,224,71,61,234,0,No
+2024-03-01,Nutrain Vanilla,7,134,137,4,0,No
+2024-03-01,Nutrain Choco Coffee,144,97,77,164,0,No
+2024-03-01,Nutrain Banana Oats,234,73,63,244,0,No
+2024-03-02,Nutrain Vanilla,4,108,112,0,18,Yes
+2024-03-02,Nutrain Choco Coffee,164,84,77,171,0,No
+2024-03-02,Nutrain Banana Oats,244,66,52,258,0,No
+2024-03-03,Nutrain Vanilla,0,134,134,0,4,Yes
+2024-03-03,Nutrain Choco Coffee,171,87,79,179,0,No
+2024-03-03,Nutrain Banana Oats,258,62,67,253,0,No
+2024-03-04,Nutrain Vanilla,0,113,113,0,23,Yes
+2024-03-04,Nutrain Choco Coffee,179,103,95,187,0,No
+2024-03-04,Nutrain Banana Oats,253,27,64,216,0,No
+2024-03-05,Nutrain Vanilla,0,106,106,0,28,Yes
+2024-03-05,Nutrain Choco Coffee,187,84,97,174,0,No
+2024-03-05,Nutrain Banana Oats,216,68,60,224,0,No
+2024-03-06,Nutrain Vanilla,0,134,134,0,3,Yes
+2024-03-06,Nutrain Choco Coffee,174,38,100,112,0,No
+2024-03-06,Nutrain Banana Oats,224,71,53,242,0,No
+2024-03-07,Nutrain Vanilla,0,131,119,12,0,No
+2024-03-07,Nutrain Choco Coffee,112,87,86,113,0,No
+2024-03-07,Nutrain Banana Oats,242,74,64,252,0,No
+2024-03-08,Nutrain Vanilla,12,119,120,11,0,No
+2024-03-08,Nutrain Choco Coffee,113,84,86,111,0,No
+2024-03-08,Nutrain Banana Oats,252,62,55,259,0,No
+2024-03-09,Nutrain Vanilla,11,126,122,15,0,No
+2024-03-09,Nutrain Choco Coffee,111,89,80,120,0,No
+2024-03-09,Nutrain Banana Oats,259,74,63,270,0,No
+2024-03-10,Nutrain Vanilla,15,21,36,0,94,Yes
+2024-03-10,Nutrain Choco Coffee,120,93,102,111,0,No
+2024-03-10,Nutrain Banana Oats,270,67,52,285,0,No
+2024-03-11,Nutrain Vanilla,0,116,109,7,0,No
+2024-03-11,Nutrain Choco Coffee,111,37,84,64,0,No
+2024-03-11,Nutrain Banana Oats,285,72,53,304,0,No
+2024-03-12,Nutrain Vanilla,7,111,118,0,4,Yes
+2024-03-12,Nutrain Choco Coffee,64,90,99,55,0,No
+2024-03-12,Nutrain Banana Oats,304,75,62,317,0,No
+2024-03-13,Nutrain Vanilla,0,123,123,0,9,Yes
+2024-03-13,Nutrain Choco Coffee,55,98,89,64,0,No
+2024-03-13,Nutrain Banana Oats,317,65,52,330,0,No
+2024-03-14,Nutrain Vanilla,0,111,111,0,13,Yes
+2024-03-14,Nutrain Choco Coffee,64,104,95,73,0,No
+2024-03-14,Nutrain Banana Oats,330,75,67,338,0,No
+2024-03-15,Nutrain Vanilla,0,106,106,0,13,Yes
+2024-03-15,Nutrain Choco Coffee,73,19,92,0,8,Yes
+2024-03-15,Nutrain Banana Oats,338,74,56,356,0,No
+2024-03-16,Nutrain Vanilla,0,63,63,0,39,Yes
+2024-03-16,Nutrain Choco Coffee,0,89,89,0,0,Yes
+2024-03-16,Nutrain Banana Oats,356,65,67,354,0,No
+2024-03-17,Nutrain Vanilla,0,130,108,22,0,No
+2024-03-17,Nutrain Choco Coffee,0,83,83,0,6,Yes
+2024-03-17,Nutrain Banana Oats,354,66,54,366,0,No
+2024-03-18,Nutrain Vanilla,22,29,51,0,83,Yes
+2024-03-18,Nutrain Choco Coffee,0,103,103,0,0,Yes
+2024-03-18,Nutrain Banana Oats,366,28,65,329,0,No
+2024-03-19,Nutrain Vanilla,0,134,115,19,0,No
+2024-03-19,Nutrain Choco Coffee,0,84,84,0,7,Yes
+2024-03-19,Nutrain Banana Oats,329,73,55,347,0,No
+2024-03-20,Nutrain Vanilla,19,113,118,14,0,No
+2024-03-20,Nutrain Choco Coffee,0,19,19,0,80,Yes
+2024-03-20,Nutrain Banana Oats,347,75,52,370,0,No
+2024-03-21,Nutrain Vanilla,14,132,111,35,0,No
+2024-03-21,Nutrain Choco Coffee,0,102,85,17,0,No
+2024-03-21,Nutrain Banana Oats,370,62,63,369,0,No
+2024-03-22,Nutrain Vanilla,35,121,129,27,0,No
+2024-03-22,Nutrain Choco Coffee,17,88,99,6,0,No
+2024-03-22,Nutrain Banana Oats,369,14,61,322,0,No
+2024-03-23,Nutrain Vanilla,27,34,61,0,68,Yes
+2024-03-23,Nutrain Choco Coffee,6,81,87,0,8,Yes
+2024-03-23,Nutrain Banana Oats,322,18,56,284,0,No
+2024-03-24,Nutrain Vanilla,0,111,105,6,0,No
+2024-03-24,Nutrain Choco Coffee,0,90,90,0,13,Yes
+2024-03-24,Nutrain Banana Oats,284,56,55,285,0,No
+2024-03-25,Nutrain Vanilla,6,107,113,0,0,Yes
+2024-03-25,Nutrain Choco Coffee,0,98,78,20,0,No
+2024-03-25,Nutrain Banana Oats,285,70,63,292,0,No
+2024-03-26,Nutrain Vanilla,0,117,117,0,14,Yes
+2024-03-26,Nutrain Choco Coffee,20,97,92,25,0,No
+2024-03-26,Nutrain Banana Oats,292,59,58,293,0,No
+2024-03-27,Nutrain Vanilla,0,114,114,0,13,Yes
+2024-03-27,Nutrain Choco Coffee,25,80,84,21,0,No
+2024-03-27,Nutrain Banana Oats,293,64,68,289,0,No
+2024-03-28,Nutrain Vanilla,0,116,104,12,0,No
+2024-03-28,Nutrain Choco Coffee,21,103,89,35,0,No
+2024-03-28,Nutrain Banana Oats,289,69,65,293,0,No
+2024-03-29,Nutrain Vanilla,12,115,109,18,0,No
+2024-03-29,Nutrain Choco Coffee,35,90,96,29,0,No
+2024-03-29,Nutrain Banana Oats,293,62,62,293,0,No
+2024-03-30,Nutrain Vanilla,18,111,129,0,5,Yes
+2024-03-30,Nutrain Choco Coffee,29,104,98,35,0,No
+2024-03-30,Nutrain Banana Oats,293,28,53,268,0,No
+2024-03-31,Nutrain Vanilla,0,107,107,0,5,Yes
+2024-03-31,Nutrain Choco Coffee,35,90,97,28,0,No
+2024-03-31,Nutrain Banana Oats,268,70,61,277,0,No
+2024-04-01,Nutrain Vanilla,0,124,124,0,5,Yes
+2024-04-01,Nutrain Choco Coffee,28,91,96,23,0,No
+2024-04-01,Nutrain Banana Oats,277,55,52,280,0,No
+2024-04-02,Nutrain Vanilla,0,122,108,14,0,No
+2024-04-02,Nutrain Choco Coffee,23,81,85,19,0,No
+2024-04-02,Nutrain Banana Oats,280,70,68,282,0,No
+2024-04-03,Nutrain Vanilla,14,40,54,0,70,Yes
+2024-04-03,Nutrain Choco Coffee,19,84,97,6,0,No
+2024-04-03,Nutrain Banana Oats,282,73,52,303,0,No
+2024-04-04,Nutrain Vanilla,0,121,121,0,8,Yes
+2024-04-04,Nutrain Choco Coffee,6,97,90,13,0,No
+2024-04-04,Nutrain Banana Oats,303,68,68,303,0,No
+2024-04-05,Nutrain Vanilla,0,124,111,13,0,No
+2024-04-05,Nutrain Choco Coffee,13,99,92,20,0,No
+2024-04-05,Nutrain Banana Oats,303,61,59,305,0,No
+2024-04-06,Nutrain Vanilla,13,120,133,0,1,Yes
+2024-04-06,Nutrain Choco Coffee,20,25,45,0,35,Yes
+2024-04-06,Nutrain Banana Oats,305,74,65,314,0,No
+2024-04-07,Nutrain Vanilla,0,107,107,0,3,Yes
+2024-04-07,Nutrain Choco Coffee,0,103,90,13,0,No
+2024-04-07,Nutrain Banana Oats,314,25,56,283,0,No
+2024-04-08,Nutrain Vanilla,0,131,108,23,0,No
+2024-04-08,Nutrain Choco Coffee,13,84,80,17,0,No
+2024-04-08,Nutrain Banana Oats,283,65,56,292,0,No
+2024-04-09,Nutrain Vanilla,23,56,79,0,44,Yes
+2024-04-09,Nutrain Choco Coffee,17,83,82,18,0,No
+2024-04-09,Nutrain Banana Oats,292,64,56,300,0,No
+2024-04-10,Nutrain Vanilla,0,126,126,0,11,Yes
+2024-04-10,Nutrain Choco Coffee,18,97,89,26,0,No
+2024-04-10,Nutrain Banana Oats,300,64,54,310,0,No
+2024-04-11,Nutrain Vanilla,0,56,56,0,73,Yes
+2024-04-11,Nutrain Choco Coffee,26,82,102,6,0,No
+2024-04-11,Nutrain Banana Oats,310,64,62,312,0,No
+2024-04-12,Nutrain Vanilla,0,125,108,17,0,No
+2024-04-12,Nutrain Choco Coffee,6,87,93,0,3,Yes
+2024-04-12,Nutrain Banana Oats,312,55,51,316,0,No
+2024-04-13,Nutrain Vanilla,17,123,129,11,0,No
+2024-04-13,Nutrain Choco Coffee,0,91,91,0,12,Yes
+2024-04-13,Nutrain Banana Oats,316,58,59,315,0,No
+2024-04-14,Nutrain Vanilla,11,134,117,28,0,No
+2024-04-14,Nutrain Choco Coffee,0,94,94,0,3,Yes
+2024-04-14,Nutrain Banana Oats,315,72,65,322,0,No
+2024-04-15,Nutrain Vanilla,28,114,126,16,0,No
+2024-04-15,Nutrain Choco Coffee,0,101,77,24,0,No
+2024-04-15,Nutrain Banana Oats,322,60,55,327,0,No
+2024-04-16,Nutrain Vanilla,16,130,127,19,0,No
+2024-04-16,Nutrain Choco Coffee,24,83,82,25,0,No
+2024-04-16,Nutrain Banana Oats,327,68,57,338,0,No
+2024-04-17,Nutrain Vanilla,19,113,120,12,0,No
+2024-04-17,Nutrain Choco Coffee,25,96,100,21,0,No
+2024-04-17,Nutrain Banana Oats,338,70,69,339,0,No
+2024-04-18,Nutrain Vanilla,12,56,68,0,38,Yes
+2024-04-18,Nutrain Choco Coffee,21,98,85,34,0,No
+2024-04-18,Nutrain Banana Oats,339,56,60,335,0,No
+2024-04-19,Nutrain Vanilla,0,134,134,0,0,Yes
+2024-04-19,Nutrain Choco Coffee,34,105,93,46,0,No
+2024-04-19,Nutrain Banana Oats,335,56,53,338,0,No
+2024-04-20,Nutrain Vanilla,0,120,120,0,12,Yes
+2024-04-20,Nutrain Choco Coffee,46,29,75,0,15,Yes
+2024-04-20,Nutrain Banana Oats,338,58,55,341,0,No
+2024-04-21,Nutrain Vanilla,0,133,130,3,0,No
+2024-04-21,Nutrain Choco Coffee,0,87,87,0,5,Yes
+2024-04-21,Nutrain Banana Oats,341,60,60,341,0,No
+2024-04-22,Nutrain Vanilla,3,130,119,14,0,No
+2024-04-22,Nutrain Choco Coffee,0,103,102,1,0,No
+2024-04-22,Nutrain Banana Oats,341,58,53,346,0,No
+2024-04-23,Nutrain Vanilla,14,135,122,27,0,No
+2024-04-23,Nutrain Choco Coffee,1,80,81,0,14,Yes
+2024-04-23,Nutrain Banana Oats,346,66,51,361,0,No
+2024-04-24,Nutrain Vanilla,27,132,115,44,0,No
+2024-04-24,Nutrain Choco Coffee,0,99,90,9,0,No
+2024-04-24,Nutrain Banana Oats,361,28,60,329,0,No
+2024-04-25,Nutrain Vanilla,44,111,115,40,0,No
+2024-04-25,Nutrain Choco Coffee,9,105,96,18,0,No
+2024-04-25,Nutrain Banana Oats,329,70,64,335,0,No
+2024-04-26,Nutrain Vanilla,40,126,122,44,0,No
+2024-04-26,Nutrain Choco Coffee,18,102,91,29,0,No
+2024-04-26,Nutrain Banana Oats,335,75,68,342,0,No
+2024-04-27,Nutrain Vanilla,44,135,134,45,0,No
+2024-04-27,Nutrain Choco Coffee,29,96,88,37,0,No
+2024-04-27,Nutrain Banana Oats,342,63,57,348,0,No
+2024-04-28,Nutrain Vanilla,45,57,102,0,23,Yes
+2024-04-28,Nutrain Choco Coffee,37,82,98,21,0,No
+2024-04-28,Nutrain Banana Oats,348,61,64,345,0,No
+2024-04-29,Nutrain Vanilla,0,109,109,0,16,Yes
+2024-04-29,Nutrain Choco Coffee,21,96,96,21,0,No
+2024-04-29,Nutrain Banana Oats,345,68,65,348,0,No
+2024-04-30,Nutrain Vanilla,0,126,115,11,0,No
+2024-04-30,Nutrain Choco Coffee,21,80,98,3,0,No
+2024-04-30,Nutrain Banana Oats,348,70,55,363,0,No
+2024-05-01,Nutrain Vanilla,11,131,121,21,0,No
+2024-05-01,Nutrain Choco Coffee,3,23,26,0,61,Yes
+2024-05-01,Nutrain Banana Oats,363,55,52,366,0,No
+2024-05-02,Nutrain Vanilla,21,127,132,16,0,No
+2024-05-02,Nutrain Choco Coffee,0,45,45,0,45,Yes
+2024-05-02,Nutrain Banana Oats,366,73,58,381,0,No
+2024-05-03,Nutrain Vanilla,16,108,124,0,3,Yes
+2024-05-03,Nutrain Choco Coffee,0,97,95,2,0,No
+2024-05-03,Nutrain Banana Oats,381,70,62,389,0,No
+2024-05-04,Nutrain Vanilla,0,115,108,7,0,No
+2024-05-04,Nutrain Choco Coffee,2,88,77,13,0,No
+2024-05-04,Nutrain Banana Oats,389,71,57,403,0,No
+2024-05-05,Nutrain Vanilla,7,128,108,27,0,No
+2024-05-05,Nutrain Choco Coffee,13,86,96,3,0,No
+2024-05-05,Nutrain Banana Oats,403,58,62,399,0,No
+2024-05-06,Nutrain Vanilla,27,23,50,0,87,Yes
+2024-05-06,Nutrain Choco Coffee,3,94,97,0,1,Yes
+2024-05-06,Nutrain Banana Oats,399,16,54,361,0,No
+2024-05-07,Nutrain Vanilla,0,105,105,0,6,Yes
+2024-05-07,Nutrain Choco Coffee,0,93,82,11,0,No
+2024-05-07,Nutrain Banana Oats,361,70,63,368,0,No
+2024-05-08,Nutrain Vanilla,0,108,108,0,26,Yes
+2024-05-08,Nutrain Choco Coffee,11,95,93,13,0,No
+2024-05-08,Nutrain Banana Oats,368,56,57,367,0,No
+2024-05-09,Nutrain Vanilla,0,129,129,0,2,Yes
+2024-05-09,Nutrain Choco Coffee,13,93,97,9,0,No
+2024-05-09,Nutrain Banana Oats,367,59,63,363,0,No
+2024-05-10,Nutrain Vanilla,0,53,53,0,49,Yes
+2024-05-10,Nutrain Choco Coffee,9,100,84,25,0,No
+2024-05-10,Nutrain Banana Oats,363,73,69,367,0,No
+2024-05-11,Nutrain Vanilla,0,135,109,26,0,No
+2024-05-11,Nutrain Choco Coffee,25,96,99,22,0,No
+2024-05-11,Nutrain Banana Oats,367,35,60,342,0,No
+2024-05-12,Nutrain Vanilla,26,27,53,0,82,Yes
+2024-05-12,Nutrain Choco Coffee,22,89,84,27,0,No
+2024-05-12,Nutrain Banana Oats,342,68,65,345,0,No
+2024-05-13,Nutrain Vanilla,0,124,117,7,0,No
+2024-05-13,Nutrain Choco Coffee,27,102,97,32,0,No
+2024-05-13,Nutrain Banana Oats,345,60,60,345,0,No
+2024-05-14,Nutrain Vanilla,7,122,121,8,0,No
+2024-05-14,Nutrain Choco Coffee,32,37,69,0,33,Yes
+2024-05-14,Nutrain Banana Oats,345,64,61,348,0,No
+2024-05-15,Nutrain Vanilla,8,123,122,9,0,No
+2024-05-15,Nutrain Choco Coffee,0,101,85,16,0,No
+2024-05-15,Nutrain Banana Oats,348,19,61,306,0,No
+2024-05-16,Nutrain Vanilla,9,135,102,42,0,No
+2024-05-16,Nutrain Choco Coffee,16,96,84,28,0,No
+2024-05-16,Nutrain Banana Oats,306,64,56,314,0,No
+2024-05-17,Nutrain Vanilla,42,124,104,62,0,No
+2024-05-17,Nutrain Choco Coffee,28,98,89,37,0,No
+2024-05-17,Nutrain Banana Oats,314,75,66,323,0,No
+2024-05-18,Nutrain Vanilla,62,109,129,42,0,No
+2024-05-18,Nutrain Choco Coffee,37,90,91,36,0,No
+2024-05-18,Nutrain Banana Oats,323,57,60,320,0,No
+2024-05-19,Nutrain Vanilla,42,119,131,30,0,No
+2024-05-19,Nutrain Choco Coffee,36,84,89,31,0,No
+2024-05-19,Nutrain Banana Oats,320,64,58,326,0,No
+2024-05-20,Nutrain Vanilla,30,129,112,47,0,No
+2024-05-20,Nutrain Choco Coffee,31,81,77,35,0,No
+2024-05-20,Nutrain Banana Oats,326,73,67,332,0,No
+2024-05-21,Nutrain Vanilla,47,111,133,25,0,No
+2024-05-21,Nutrain Choco Coffee,35,100,103,32,0,No
+2024-05-21,Nutrain Banana Oats,332,69,59,342,0,No
+2024-05-22,Nutrain Vanilla,25,125,135,15,0,No
+2024-05-22,Nutrain Choco Coffee,32,82,92,22,0,No
+2024-05-22,Nutrain Banana Oats,342,64,64,342,0,No
+2024-05-23,Nutrain Vanilla,15,135,127,23,0,No
+2024-05-23,Nutrain Choco Coffee,22,105,97,30,0,No
+2024-05-23,Nutrain Banana Oats,342,57,52,347,0,No
+2024-05-24,Nutrain Vanilla,23,126,132,17,0,No
+2024-05-24,Nutrain Choco Coffee,30,101,97,34,0,No
+2024-05-24,Nutrain Banana Oats,347,64,66,345,0,No
+2024-05-25,Nutrain Vanilla,17,119,106,30,0,No
+2024-05-25,Nutrain Choco Coffee,34,85,88,31,0,No
+2024-05-25,Nutrain Banana Oats,345,67,64,348,0,No
+2024-05-26,Nutrain Vanilla,30,119,106,43,0,No
+2024-05-26,Nutrain Choco Coffee,31,82,103,10,0,No
+2024-05-26,Nutrain Banana Oats,348,65,68,345,0,No
+2024-05-27,Nutrain Vanilla,43,125,103,65,0,No
+2024-05-27,Nutrain Choco Coffee,10,94,89,15,0,No
+2024-05-27,Nutrain Banana Oats,345,57,67,335,0,No
+2024-05-28,Nutrain Vanilla,65,106,128,43,0,No
+2024-05-28,Nutrain Choco Coffee,15,50,65,0,30,Yes
+2024-05-28,Nutrain Banana Oats,335,60,64,331,0,No
+2024-05-29,Nutrain Vanilla,43,105,124,24,0,No
+2024-05-29,Nutrain Choco Coffee,0,103,91,12,0,No
+2024-05-29,Nutrain Banana Oats,331,58,67,322,0,No
+2024-05-30,Nutrain Vanilla,24,109,115,18,0,No
+2024-05-30,Nutrain Choco Coffee,12,41,53,0,29,Yes
+2024-05-30,Nutrain Banana Oats,322,28,52,298,0,No
+2024-05-31,Nutrain Vanilla,18,115,122,11,0,No
+2024-05-31,Nutrain Choco Coffee,0,95,95,0,1,Yes
+2024-05-31,Nutrain Banana Oats,298,29,57,270,0,No
+2024-06-01,Nutrain Vanilla,11,117,127,1,0,No
+2024-06-01,Nutrain Choco Coffee,0,100,98,2,0,No
+2024-06-01,Nutrain Banana Oats,270,63,54,279,0,No
+2024-06-02,Nutrain Vanilla,1,41,42,0,63,Yes
+2024-06-02,Nutrain Choco Coffee,2,29,31,0,56,Yes
+2024-06-02,Nutrain Banana Oats,279,30,58,251,0,No
+2024-06-03,Nutrain Vanilla,0,115,109,6,0,No
+2024-06-03,Nutrain Choco Coffee,0,98,98,0,3,Yes
+2024-06-03,Nutrain Banana Oats,251,64,68,247,0,No
+2024-06-04,Nutrain Vanilla,6,125,130,1,0,No
+2024-06-04,Nutrain Choco Coffee,0,91,84,7,0,No
+2024-06-04,Nutrain Banana Oats,247,62,67,242,0,No
+2024-06-05,Nutrain Vanilla,1,29,30,0,97,Yes
+2024-06-05,Nutrain Choco Coffee,7,89,86,10,0,No
+2024-06-05,Nutrain Banana Oats,242,55,60,237,0,No
+2024-06-06,Nutrain Vanilla,0,117,117,0,16,Yes
+2024-06-06,Nutrain Choco Coffee,10,85,92,3,0,No
+2024-06-06,Nutrain Banana Oats,237,61,53,245,0,No
+2024-06-07,Nutrain Vanilla,0,26,26,0,105,Yes
+2024-06-07,Nutrain Choco Coffee,3,103,93,13,0,No
+2024-06-07,Nutrain Banana Oats,245,74,68,251,0,No
+2024-06-08,Nutrain Vanilla,0,125,125,0,4,Yes
+2024-06-08,Nutrain Choco Coffee,13,101,103,11,0,No
+2024-06-08,Nutrain Banana Oats,251,61,69,243,0,No
+2024-06-09,Nutrain Vanilla,0,134,134,0,0,Yes
+2024-06-09,Nutrain Choco Coffee,11,105,81,35,0,No
+2024-06-09,Nutrain Banana Oats,243,69,58,254,0,No
+2024-06-10,Nutrain Vanilla,0,116,116,0,14,Yes
+2024-06-10,Nutrain Choco Coffee,35,32,67,0,26,Yes
+2024-06-10,Nutrain Banana Oats,254,63,67,250,0,No
+2024-06-11,Nutrain Vanilla,0,118,103,15,0,No
+2024-06-11,Nutrain Choco Coffee,0,96,91,5,0,No
+2024-06-11,Nutrain Banana Oats,250,71,62,259,0,No
+2024-06-12,Nutrain Vanilla,15,115,115,15,0,No
+2024-06-12,Nutrain Choco Coffee,5,30,35,0,59,Yes
+2024-06-12,Nutrain Banana Oats,259,74,56,277,0,No
+2024-06-13,Nutrain Vanilla,15,119,113,21,0,No
+2024-06-13,Nutrain Choco Coffee,0,98,90,8,0,No
+2024-06-13,Nutrain Banana Oats,277,68,69,276,0,No
+2024-06-14,Nutrain Vanilla,21,117,117,21,0,No
+2024-06-14,Nutrain Choco Coffee,8,100,102,6,0,No
+2024-06-14,Nutrain Banana Oats,276,65,59,282,0,No
+2024-06-15,Nutrain Vanilla,21,108,105,24,0,No
+2024-06-15,Nutrain Choco Coffee,6,82,78,10,0,No
+2024-06-15,Nutrain Banana Oats,282,74,64,292,0,No
+2024-06-16,Nutrain Vanilla,24,133,104,53,0,No
+2024-06-16,Nutrain Choco Coffee,10,94,84,20,0,No
+2024-06-16,Nutrain Banana Oats,292,62,58,296,0,No
+2024-06-17,Nutrain Vanilla,53,114,114,53,0,No
+2024-06-17,Nutrain Choco Coffee,20,27,47,0,49,Yes
+2024-06-17,Nutrain Banana Oats,296,70,63,303,0,No
+2024-06-18,Nutrain Vanilla,53,111,136,28,0,No
+2024-06-18,Nutrain Choco Coffee,0,94,94,0,3,Yes
+2024-06-18,Nutrain Banana Oats,303,65,65,303,0,No
+2024-06-19,Nutrain Vanilla,28,126,137,17,0,No
+2024-06-19,Nutrain Choco Coffee,0,98,82,16,0,No
+2024-06-19,Nutrain Banana Oats,303,74,64,313,0,No
+2024-06-20,Nutrain Vanilla,17,111,112,16,0,No
+2024-06-20,Nutrain Choco Coffee,16,82,89,9,0,No
+2024-06-20,Nutrain Banana Oats,313,63,69,307,0,No
+2024-06-21,Nutrain Vanilla,16,127,130,13,0,No
+2024-06-21,Nutrain Choco Coffee,9,102,100,11,0,No
+2024-06-21,Nutrain Banana Oats,307,60,57,310,0,No
+2024-06-22,Nutrain Vanilla,13,115,107,21,0,No
+2024-06-22,Nutrain Choco Coffee,11,97,92,16,0,No
+2024-06-22,Nutrain Banana Oats,310,36,67,279,0,No
+2024-06-23,Nutrain Vanilla,21,107,128,0,6,Yes
+2024-06-23,Nutrain Choco Coffee,16,85,100,1,0,No
+2024-06-23,Nutrain Banana Oats,279,59,68,270,0,No
+2024-06-24,Nutrain Vanilla,0,126,126,0,1,Yes
+2024-06-24,Nutrain Choco Coffee,1,85,86,0,3,Yes
+2024-06-24,Nutrain Banana Oats,270,68,52,286,0,No
+2024-06-25,Nutrain Vanilla,0,105,105,0,26,Yes
+2024-06-25,Nutrain Choco Coffee,0,92,91,1,0,No
+2024-06-25,Nutrain Banana Oats,286,68,62,292,0,No
+2024-06-26,Nutrain Vanilla,0,123,123,0,5,Yes
+2024-06-26,Nutrain Choco Coffee,1,81,82,0,16,Yes
+2024-06-26,Nutrain Banana Oats,292,66,62,296,0,No
+2024-06-27,Nutrain Vanilla,0,118,113,5,0,No
+2024-06-27,Nutrain Choco Coffee,0,83,83,0,5,Yes
+2024-06-27,Nutrain Banana Oats,296,63,52,307,0,No
+2024-06-28,Nutrain Vanilla,5,129,106,28,0,No
+2024-06-28,Nutrain Choco Coffee,0,35,35,0,61,Yes
+2024-06-28,Nutrain Banana Oats,307,70,58,319,0,No
+2024-06-29,Nutrain Vanilla,28,108,126,10,0,No
+2024-06-29,Nutrain Choco Coffee,0,103,94,9,0,No
+2024-06-29,Nutrain Banana Oats,319,72,65,326,0,No
+2024-06-30,Nutrain Vanilla,10,135,137,8,0,No
+2024-06-30,Nutrain Choco Coffee,9,101,89,21,0,No
+2024-06-30,Nutrain Banana Oats,326,64,63,327,0,No
+2024-07-01,Nutrain Vanilla,8,105,104,9,0,No
+2024-07-01,Nutrain Choco Coffee,21,87,83,25,0,No
+2024-07-01,Nutrain Banana Oats,327,72,65,334,0,No
+2024-07-02,Nutrain Vanilla,9,123,131,1,0,No
+2024-07-02,Nutrain Choco Coffee,25,102,90,37,0,No
+2024-07-02,Nutrain Banana Oats,334,68,58,344,0,No
+2024-07-03,Nutrain Vanilla,1,53,54,0,62,Yes
+2024-07-03,Nutrain Choco Coffee,37,90,81,46,0,No
+2024-07-03,Nutrain Banana Oats,344,64,69,339,0,No
+2024-07-04,Nutrain Vanilla,0,134,122,12,0,No
+2024-07-04,Nutrain Choco Coffee,46,103,92,57,0,No
+2024-07-04,Nutrain Banana Oats,339,58,54,343,0,No
+2024-07-05,Nutrain Vanilla,12,124,107,29,0,No
+2024-07-05,Nutrain Choco Coffee,57,85,95,47,0,No
+2024-07-05,Nutrain Banana Oats,343,71,64,350,0,No
+2024-07-06,Nutrain Vanilla,29,105,116,18,0,No
+2024-07-06,Nutrain Choco Coffee,47,80,78,49,0,No
+2024-07-06,Nutrain Banana Oats,350,60,54,356,0,No
+2024-07-07,Nutrain Vanilla,18,113,123,8,0,No
+2024-07-07,Nutrain Choco Coffee,49,101,80,70,0,No
+2024-07-07,Nutrain Banana Oats,356,70,69,357,0,No
+2024-07-08,Nutrain Vanilla,8,126,109,25,0,No
+2024-07-08,Nutrain Choco Coffee,70,91,79,82,0,No
+2024-07-08,Nutrain Banana Oats,357,68,53,372,0,No
+2024-07-09,Nutrain Vanilla,25,109,107,27,0,No
+2024-07-09,Nutrain Choco Coffee,82,29,91,20,0,No
+2024-07-09,Nutrain Banana Oats,372,72,68,376,0,No
+2024-07-10,Nutrain Vanilla,27,110,106,31,0,No
+2024-07-10,Nutrain Choco Coffee,20,92,90,22,0,No
+2024-07-10,Nutrain Banana Oats,376,59,61,374,0,No
+2024-07-11,Nutrain Vanilla,31,131,108,54,0,No
+2024-07-11,Nutrain Choco Coffee,22,100,88,34,0,No
+2024-07-11,Nutrain Banana Oats,374,72,55,391,0,No
+2024-07-12,Nutrain Vanilla,54,125,131,48,0,No
+2024-07-12,Nutrain Choco Coffee,34,98,82,50,0,No
+2024-07-12,Nutrain Banana Oats,391,63,67,387,0,No
+2024-07-13,Nutrain Vanilla,48,128,132,44,0,No
+2024-07-13,Nutrain Choco Coffee,50,97,78,69,0,No
+2024-07-13,Nutrain Banana Oats,387,61,66,382,0,No
+2024-07-14,Nutrain Vanilla,44,121,107,58,0,No
+2024-07-14,Nutrain Choco Coffee,69,105,94,80,0,No
+2024-07-14,Nutrain Banana Oats,382,69,66,385,0,No
+2024-07-15,Nutrain Vanilla,58,116,111,63,0,No
+2024-07-15,Nutrain Choco Coffee,80,93,98,75,0,No
+2024-07-15,Nutrain Banana Oats,385,60,55,390,0,No
+2024-07-16,Nutrain Vanilla,63,112,115,60,0,No
+2024-07-16,Nutrain Choco Coffee,75,98,81,92,0,No
+2024-07-16,Nutrain Banana Oats,390,65,55,400,0,No
+2024-07-17,Nutrain Vanilla,60,107,122,45,0,No
+2024-07-17,Nutrain Choco Coffee,92,30,82,40,0,No
+2024-07-17,Nutrain Banana Oats,400,58,61,397,0,No
+2024-07-18,Nutrain Vanilla,45,127,113,59,0,No
+2024-07-18,Nutrain Choco Coffee,40,96,87,49,0,No
+2024-07-18,Nutrain Banana Oats,397,31,54,374,0,No
+2024-07-19,Nutrain Vanilla,59,47,106,0,26,Yes
+2024-07-19,Nutrain Choco Coffee,49,82,94,37,0,No
+2024-07-19,Nutrain Banana Oats,374,74,59,389,0,No
+2024-07-20,Nutrain Vanilla,0,125,125,0,12,Yes
+2024-07-20,Nutrain Choco Coffee,37,90,98,29,0,No
+2024-07-20,Nutrain Banana Oats,389,55,62,382,0,No
+2024-07-21,Nutrain Vanilla,0,129,129,0,8,Yes
+2024-07-21,Nutrain Choco Coffee,29,85,90,24,0,No
+2024-07-21,Nutrain Banana Oats,382,75,66,391,0,No
+2024-07-22,Nutrain Vanilla,0,115,115,0,8,Yes
+2024-07-22,Nutrain Choco Coffee,24,98,88,34,0,No
+2024-07-22,Nutrain Banana Oats,391,70,64,397,0,No
+2024-07-23,Nutrain Vanilla,0,26,26,0,95,Yes
+2024-07-23,Nutrain Choco Coffee,34,95,86,43,0,No
+2024-07-23,Nutrain Banana Oats,397,70,55,412,0,No
+2024-07-24,Nutrain Vanilla,0,110,110,0,7,Yes
+2024-07-24,Nutrain Choco Coffee,43,95,98,40,0,No
+2024-07-24,Nutrain Banana Oats,412,57,53,416,0,No
+2024-07-25,Nutrain Vanilla,0,124,112,12,0,No
+2024-07-25,Nutrain Choco Coffee,40,95,88,47,0,No
+2024-07-25,Nutrain Banana Oats,416,70,53,433,0,No
+2024-07-26,Nutrain Vanilla,12,44,56,0,67,Yes
+2024-07-26,Nutrain Choco Coffee,47,81,99,29,0,No
+2024-07-26,Nutrain Banana Oats,433,36,62,407,0,No
+2024-07-27,Nutrain Vanilla,0,132,111,21,0,No
+2024-07-27,Nutrain Choco Coffee,29,93,92,30,0,No
+2024-07-27,Nutrain Banana Oats,407,60,65,402,0,No
+2024-07-28,Nutrain Vanilla,21,127,124,24,0,No
+2024-07-28,Nutrain Choco Coffee,30,96,100,26,0,No
+2024-07-28,Nutrain Banana Oats,402,66,69,399,0,No
+2024-07-29,Nutrain Vanilla,24,127,113,38,0,No
+2024-07-29,Nutrain Choco Coffee,26,95,87,34,0,No
+2024-07-29,Nutrain Banana Oats,399,69,67,401,0,No
+2024-07-30,Nutrain Vanilla,38,114,122,30,0,No
+2024-07-30,Nutrain Choco Coffee,34,99,81,52,0,No
+2024-07-30,Nutrain Banana Oats,401,58,52,407,0,No
+2024-07-31,Nutrain Vanilla,30,130,109,51,0,No
+2024-07-31,Nutrain Choco Coffee,52,105,98,59,0,No
+2024-07-31,Nutrain Banana Oats,407,58,69,396,0,No
+2024-08-01,Nutrain Vanilla,51,108,118,41,0,No
+2024-08-01,Nutrain Choco Coffee,59,41,90,10,0,No
+2024-08-01,Nutrain Banana Oats,396,55,65,386,0,No
+2024-08-02,Nutrain Vanilla,41,119,128,32,0,No
+2024-08-02,Nutrain Choco Coffee,10,44,54,0,26,Yes
+2024-08-02,Nutrain Banana Oats,386,28,59,355,0,No
+2024-08-03,Nutrain Vanilla,32,134,134,32,0,No
+2024-08-03,Nutrain Choco Coffee,0,99,93,6,0,No
+2024-08-03,Nutrain Banana Oats,355,72,65,362,0,No
+2024-08-04,Nutrain Vanilla,32,133,104,61,0,No
+2024-08-04,Nutrain Choco Coffee,6,87,92,1,0,No
+2024-08-04,Nutrain Banana Oats,362,23,63,322,0,No
+2024-08-05,Nutrain Vanilla,61,128,129,60,0,No
+2024-08-05,Nutrain Choco Coffee,1,32,33,0,56,Yes
+2024-08-05,Nutrain Banana Oats,322,58,56,324,0,No
+2024-08-06,Nutrain Vanilla,60,114,132,42,0,No
+2024-08-06,Nutrain Choco Coffee,0,87,82,5,0,No
+2024-08-06,Nutrain Banana Oats,324,63,63,324,0,No
+2024-08-07,Nutrain Vanilla,42,132,115,59,0,No
+2024-08-07,Nutrain Choco Coffee,5,89,79,15,0,No
+2024-08-07,Nutrain Banana Oats,324,73,65,332,0,No
+2024-08-08,Nutrain Vanilla,59,120,133,46,0,No
+2024-08-08,Nutrain Choco Coffee,15,96,86,25,0,No
+2024-08-08,Nutrain Banana Oats,332,69,52,349,0,No
+2024-08-09,Nutrain Vanilla,46,113,118,41,0,No
+2024-08-09,Nutrain Choco Coffee,25,95,82,38,0,No
+2024-08-09,Nutrain Banana Oats,349,72,52,369,0,No
+2024-08-10,Nutrain Vanilla,41,110,105,46,0,No
+2024-08-10,Nutrain Choco Coffee,38,103,100,41,0,No
+2024-08-10,Nutrain Banana Oats,369,55,55,369,0,No
+2024-08-11,Nutrain Vanilla,46,124,132,38,0,No
+2024-08-11,Nutrain Choco Coffee,41,19,60,0,36,Yes
+2024-08-11,Nutrain Banana Oats,369,56,60,365,0,No
+2024-08-12,Nutrain Vanilla,38,114,117,35,0,No
+2024-08-12,Nutrain Choco Coffee,0,93,83,10,0,No
+2024-08-12,Nutrain Banana Oats,365,75,60,380,0,No
+2024-08-13,Nutrain Vanilla,35,110,121,24,0,No
+2024-08-13,Nutrain Choco Coffee,10,89,86,13,0,No
+2024-08-13,Nutrain Banana Oats,380,71,60,391,0,No
+2024-08-14,Nutrain Vanilla,24,115,127,12,0,No
+2024-08-14,Nutrain Choco Coffee,13,83,94,2,0,No
+2024-08-14,Nutrain Banana Oats,391,56,59,388,0,No
+2024-08-15,Nutrain Vanilla,12,127,107,32,0,No
+2024-08-15,Nutrain Choco Coffee,2,40,42,0,56,Yes
+2024-08-15,Nutrain Banana Oats,388,56,64,380,0,No
+2024-08-16,Nutrain Vanilla,32,116,130,18,0,No
+2024-08-16,Nutrain Choco Coffee,0,40,40,0,49,Yes
+2024-08-16,Nutrain Banana Oats,380,68,61,387,0,No
+2024-08-17,Nutrain Vanilla,18,106,119,5,0,No
+2024-08-17,Nutrain Choco Coffee,0,102,93,9,0,No
+2024-08-17,Nutrain Banana Oats,387,65,65,387,0,No
+2024-08-18,Nutrain Vanilla,5,107,110,2,0,No
+2024-08-18,Nutrain Choco Coffee,9,33,42,0,38,Yes
+2024-08-18,Nutrain Banana Oats,387,60,56,391,0,No
+2024-08-19,Nutrain Vanilla,2,105,107,0,31,Yes
+2024-08-19,Nutrain Choco Coffee,0,85,85,0,2,Yes
+2024-08-19,Nutrain Banana Oats,391,64,54,401,0,No
+2024-08-20,Nutrain Vanilla,0,120,108,12,0,No
+2024-08-20,Nutrain Choco Coffee,0,99,84,15,0,No
+2024-08-20,Nutrain Banana Oats,401,70,54,417,0,No
+2024-08-21,Nutrain Vanilla,12,118,117,13,0,No
+2024-08-21,Nutrain Choco Coffee,15,99,97,17,0,No
+2024-08-21,Nutrain Banana Oats,417,58,60,415,0,No
+2024-08-22,Nutrain Vanilla,13,116,103,26,0,No
+2024-08-22,Nutrain Choco Coffee,17,32,49,0,31,Yes
+2024-08-22,Nutrain Banana Oats,415,70,68,417,0,No
+2024-08-23,Nutrain Vanilla,26,115,109,32,0,No
+2024-08-23,Nutrain Choco Coffee,0,85,85,0,10,Yes
+2024-08-23,Nutrain Banana Oats,417,74,65,426,0,No
+2024-08-24,Nutrain Vanilla,32,25,57,0,59,Yes
+2024-08-24,Nutrain Choco Coffee,0,85,85,0,12,Yes
+2024-08-24,Nutrain Banana Oats,426,58,69,415,0,No
+2024-08-25,Nutrain Vanilla,0,130,120,10,0,No
+2024-08-25,Nutrain Choco Coffee,0,94,94,0,7,Yes
+2024-08-25,Nutrain Banana Oats,415,75,53,437,0,No
+2024-08-26,Nutrain Vanilla,10,127,122,15,0,No
+2024-08-26,Nutrain Choco Coffee,0,93,90,3,0,No
+2024-08-26,Nutrain Banana Oats,437,73,63,447,0,No
+2024-08-27,Nutrain Vanilla,15,129,103,41,0,No
+2024-08-27,Nutrain Choco Coffee,3,105,89,19,0,No
+2024-08-27,Nutrain Banana Oats,447,66,59,454,0,No
+2024-08-28,Nutrain Vanilla,41,117,109,49,0,No
+2024-08-28,Nutrain Choco Coffee,19,90,103,6,0,No
+2024-08-28,Nutrain Banana Oats,454,61,65,450,0,No
+2024-08-29,Nutrain Vanilla,49,105,103,51,0,No
+2024-08-29,Nutrain Choco Coffee,6,103,102,7,0,No
+2024-08-29,Nutrain Banana Oats,450,29,57,422,0,No
+2024-08-30,Nutrain Vanilla,51,115,117,49,0,No
+2024-08-30,Nutrain Choco Coffee,7,104,100,11,0,No
+2024-08-30,Nutrain Banana Oats,422,23,69,376,0,No
+2024-08-31,Nutrain Vanilla,49,123,107,65,0,No
+2024-08-31,Nutrain Choco Coffee,11,34,45,0,39,Yes
+2024-08-31,Nutrain Banana Oats,376,55,68,363,0,No
+2024-09-01,Nutrain Vanilla,65,120,123,62,0,No
+2024-09-01,Nutrain Choco Coffee,0,88,88,0,13,Yes
+2024-09-01,Nutrain Banana Oats,363,71,61,373,0,No
+2024-09-02,Nutrain Vanilla,62,124,123,63,0,No
+2024-09-02,Nutrain Choco Coffee,0,102,77,25,0,No
+2024-09-02,Nutrain Banana Oats,373,62,54,381,0,No
+2024-09-03,Nutrain Vanilla,63,119,113,69,0,No
+2024-09-03,Nutrain Choco Coffee,25,84,91,18,0,No
+2024-09-03,Nutrain Banana Oats,381,17,53,345,0,No
+2024-09-04,Nutrain Vanilla,69,116,122,63,0,No
+2024-09-04,Nutrain Choco Coffee,18,98,101,15,0,No
+2024-09-04,Nutrain Banana Oats,345,73,61,357,0,No
+2024-09-05,Nutrain Vanilla,63,121,109,75,0,No
+2024-09-05,Nutrain Choco Coffee,15,104,90,29,0,No
+2024-09-05,Nutrain Banana Oats,357,67,64,360,0,No
+2024-09-06,Nutrain Vanilla,75,37,112,0,16,Yes
+2024-09-06,Nutrain Choco Coffee,29,93,81,41,0,No
+2024-09-06,Nutrain Banana Oats,360,61,53,368,0,No
+2024-09-07,Nutrain Vanilla,0,119,102,17,0,No
+2024-09-07,Nutrain Choco Coffee,41,31,72,0,12,Yes
+2024-09-07,Nutrain Banana Oats,368,60,56,372,0,No
+2024-09-08,Nutrain Vanilla,17,134,130,21,0,No
+2024-09-08,Nutrain Choco Coffee,0,83,83,0,20,Yes
+2024-09-08,Nutrain Banana Oats,372,68,66,374,0,No
+2024-09-09,Nutrain Vanilla,21,130,121,30,0,No
+2024-09-09,Nutrain Choco Coffee,0,101,96,5,0,No
+2024-09-09,Nutrain Banana Oats,374,25,66,333,0,No
+2024-09-10,Nutrain Vanilla,30,124,109,45,0,No
+2024-09-10,Nutrain Choco Coffee,5,81,84,2,0,No
+2024-09-10,Nutrain Banana Oats,333,61,61,333,0,No
+2024-09-11,Nutrain Vanilla,45,111,137,19,0,No
+2024-09-11,Nutrain Choco Coffee,2,105,83,24,0,No
+2024-09-11,Nutrain Banana Oats,333,68,57,344,0,No
+2024-09-12,Nutrain Vanilla,19,130,127,22,0,No
+2024-09-12,Nutrain Choco Coffee,24,99,85,38,0,No
+2024-09-12,Nutrain Banana Oats,344,70,60,354,0,No
+2024-09-13,Nutrain Vanilla,22,109,130,1,0,No
+2024-09-13,Nutrain Choco Coffee,38,89,86,41,0,No
+2024-09-13,Nutrain Banana Oats,354,57,62,349,0,No
+2024-09-14,Nutrain Vanilla,1,119,120,0,17,Yes
+2024-09-14,Nutrain Choco Coffee,41,88,100,29,0,No
+2024-09-14,Nutrain Banana Oats,349,71,59,361,0,No
+2024-09-15,Nutrain Vanilla,0,105,105,0,6,Yes
+2024-09-15,Nutrain Choco Coffee,29,104,89,44,0,No
+2024-09-15,Nutrain Banana Oats,361,61,57,365,0,No
+2024-09-16,Nutrain Vanilla,0,112,112,0,25,Yes
+2024-09-16,Nutrain Choco Coffee,44,99,97,46,0,No
+2024-09-16,Nutrain Banana Oats,365,71,61,375,0,No
+2024-09-17,Nutrain Vanilla,0,130,114,16,0,No
+2024-09-17,Nutrain Choco Coffee,46,103,88,61,0,No
+2024-09-17,Nutrain Banana Oats,375,61,69,367,0,No
+2024-09-18,Nutrain Vanilla,16,132,123,25,0,No
+2024-09-18,Nutrain Choco Coffee,61,104,90,75,0,No
+2024-09-18,Nutrain Banana Oats,367,59,53,373,0,No
+2024-09-19,Nutrain Vanilla,25,127,129,23,0,No
+2024-09-19,Nutrain Choco Coffee,75,82,89,68,0,No
+2024-09-19,Nutrain Banana Oats,373,69,65,377,0,No
+2024-09-20,Nutrain Vanilla,23,119,104,38,0,No
+2024-09-20,Nutrain Choco Coffee,68,93,84,77,0,No
+2024-09-20,Nutrain Banana Oats,377,67,61,383,0,No
+2024-09-21,Nutrain Vanilla,38,132,114,56,0,No
+2024-09-21,Nutrain Choco Coffee,77,97,95,79,0,No
+2024-09-21,Nutrain Banana Oats,383,72,65,390,0,No
+2024-09-22,Nutrain Vanilla,56,118,136,38,0,No
+2024-09-22,Nutrain Choco Coffee,79,29,78,30,0,No
+2024-09-22,Nutrain Banana Oats,390,74,61,403,0,No
+2024-09-23,Nutrain Vanilla,38,105,112,31,0,No
+2024-09-23,Nutrain Choco Coffee,30,92,96,26,0,No
+2024-09-23,Nutrain Banana Oats,403,67,64,406,0,No
+2024-09-24,Nutrain Vanilla,31,123,134,20,0,No
+2024-09-24,Nutrain Choco Coffee,26,84,77,33,0,No
+2024-09-24,Nutrain Banana Oats,406,64,67,403,0,No
+2024-09-25,Nutrain Vanilla,20,108,108,20,0,No
+2024-09-25,Nutrain Choco Coffee,33,102,101,34,0,No
+2024-09-25,Nutrain Banana Oats,403,68,57,414,0,No
+2024-09-26,Nutrain Vanilla,20,109,122,7,0,No
+2024-09-26,Nutrain Choco Coffee,34,96,84,46,0,No
+2024-09-26,Nutrain Banana Oats,414,70,68,416,0,No
+2024-09-27,Nutrain Vanilla,7,109,116,0,4,Yes
+2024-09-27,Nutrain Choco Coffee,46,80,92,34,0,No
+2024-09-27,Nutrain Banana Oats,416,66,54,428,0,No
+2024-09-28,Nutrain Vanilla,0,135,114,21,0,No
+2024-09-28,Nutrain Choco Coffee,34,86,99,21,0,No
+2024-09-28,Nutrain Banana Oats,428,67,61,434,0,No
+2024-09-29,Nutrain Vanilla,21,117,115,23,0,No
+2024-09-29,Nutrain Choco Coffee,21,80,77,24,0,No
+2024-09-29,Nutrain Banana Oats,434,71,67,438,0,No
+2024-09-30,Nutrain Vanilla,23,134,112,45,0,No
+2024-09-30,Nutrain Choco Coffee,24,23,47,0,49,Yes
+2024-09-30,Nutrain Banana Oats,438,55,57,436,0,No
+2024-10-01,Nutrain Vanilla,45,112,108,49,0,No
+2024-10-01,Nutrain Choco Coffee,0,100,95,5,0,No
+2024-10-01,Nutrain Banana Oats,436,15,58,393,0,No
+2024-10-02,Nutrain Vanilla,49,115,118,46,0,No
+2024-10-02,Nutrain Choco Coffee,5,100,98,7,0,No
+2024-10-02,Nutrain Banana Oats,393,55,60,388,0,No
+2024-10-03,Nutrain Vanilla,46,117,111,52,0,No
+2024-10-03,Nutrain Choco Coffee,7,89,78,18,0,No
+2024-10-03,Nutrain Banana Oats,388,67,68,387,0,No
+2024-10-04,Nutrain Vanilla,52,39,91,0,42,Yes
+2024-10-04,Nutrain Choco Coffee,18,100,101,17,0,No
+2024-10-04,Nutrain Banana Oats,387,61,60,388,0,No
+2024-10-05,Nutrain Vanilla,0,121,107,14,0,No
+2024-10-05,Nutrain Choco Coffee,17,97,84,30,0,No
+2024-10-05,Nutrain Banana Oats,388,56,63,381,0,No
+2024-10-06,Nutrain Vanilla,14,135,119,30,0,No
+2024-10-06,Nutrain Choco Coffee,30,94,94,30,0,No
+2024-10-06,Nutrain Banana Oats,381,63,61,383,0,No
+2024-10-07,Nutrain Vanilla,30,132,108,54,0,No
+2024-10-07,Nutrain Choco Coffee,30,21,51,0,33,Yes
+2024-10-07,Nutrain Banana Oats,383,58,57,384,0,No
+2024-10-08,Nutrain Vanilla,54,118,124,48,0,No
+2024-10-08,Nutrain Choco Coffee,0,86,84,2,0,No
+2024-10-08,Nutrain Banana Oats,384,56,67,373,0,No
+2024-10-09,Nutrain Vanilla,48,127,126,49,0,No
+2024-10-09,Nutrain Choco Coffee,2,85,87,0,15,Yes
+2024-10-09,Nutrain Banana Oats,373,71,59,385,0,No
+2024-10-10,Nutrain Vanilla,49,134,112,71,0,No
+2024-10-10,Nutrain Choco Coffee,0,84,84,0,11,Yes
+2024-10-10,Nutrain Banana Oats,385,66,68,383,0,No
+2024-10-11,Nutrain Vanilla,71,117,109,79,0,No
+2024-10-11,Nutrain Choco Coffee,0,105,79,26,0,No
+2024-10-11,Nutrain Banana Oats,383,72,62,393,0,No
+2024-10-12,Nutrain Vanilla,79,126,131,74,0,No
+2024-10-12,Nutrain Choco Coffee,26,95,80,41,0,No
+2024-10-12,Nutrain Banana Oats,393,62,59,396,0,No
+2024-10-13,Nutrain Vanilla,74,121,134,61,0,No
+2024-10-13,Nutrain Choco Coffee,41,101,97,45,0,No
+2024-10-13,Nutrain Banana Oats,396,61,59,398,0,No
+2024-10-14,Nutrain Vanilla,61,105,115,51,0,No
+2024-10-14,Nutrain Choco Coffee,45,96,98,43,0,No
+2024-10-14,Nutrain Banana Oats,398,69,68,399,0,No
+2024-10-15,Nutrain Vanilla,51,112,122,41,0,No
+2024-10-15,Nutrain Choco Coffee,43,102,79,66,0,No
+2024-10-15,Nutrain Banana Oats,399,57,65,391,0,No
+2024-10-16,Nutrain Vanilla,41,46,87,0,26,Yes
+2024-10-16,Nutrain Choco Coffee,66,90,100,56,0,No
+2024-10-16,Nutrain Banana Oats,391,75,61,405,0,No
+2024-10-17,Nutrain Vanilla,0,130,115,15,0,No
+2024-10-17,Nutrain Choco Coffee,56,85,81,60,0,No
+2024-10-17,Nutrain Banana Oats,405,69,60,414,0,No
+2024-10-18,Nutrain Vanilla,15,128,114,29,0,No
+2024-10-18,Nutrain Choco Coffee,60,87,91,56,0,No
+2024-10-18,Nutrain Banana Oats,414,70,64,420,0,No
+2024-10-19,Nutrain Vanilla,29,130,114,45,0,No
+2024-10-19,Nutrain Choco Coffee,56,92,90,58,0,No
+2024-10-19,Nutrain Banana Oats,420,71,61,430,0,No
+2024-10-20,Nutrain Vanilla,45,134,104,75,0,No
+2024-10-20,Nutrain Choco Coffee,58,93,93,58,0,No
+2024-10-20,Nutrain Banana Oats,430,72,59,443,0,No
+2024-10-21,Nutrain Vanilla,75,112,107,80,0,No
+2024-10-21,Nutrain Choco Coffee,58,97,102,53,0,No
+2024-10-21,Nutrain Banana Oats,443,22,54,411,0,No
+2024-10-22,Nutrain Vanilla,80,135,109,106,0,No
+2024-10-22,Nutrain Choco Coffee,53,89,100,42,0,No
+2024-10-22,Nutrain Banana Oats,411,56,58,409,0,No
+2024-10-23,Nutrain Vanilla,106,121,134,93,0,No
+2024-10-23,Nutrain Choco Coffee,42,87,94,35,0,No
+2024-10-23,Nutrain Banana Oats,409,59,55,413,0,No
+2024-10-24,Nutrain Vanilla,93,110,106,97,0,No
+2024-10-24,Nutrain Choco Coffee,35,89,78,46,0,No
+2024-10-24,Nutrain Banana Oats,413,59,59,413,0,No
+2024-10-25,Nutrain Vanilla,97,123,117,103,0,No
+2024-10-25,Nutrain Choco Coffee,46,84,89,41,0,No
+2024-10-25,Nutrain Banana Oats,413,65,64,414,0,No
+2024-10-26,Nutrain Vanilla,103,130,128,105,0,No
+2024-10-26,Nutrain Choco Coffee,41,105,91,55,0,No
+2024-10-26,Nutrain Banana Oats,414,55,60,409,0,No
+2024-10-27,Nutrain Vanilla,105,124,112,117,0,No
+2024-10-27,Nutrain Choco Coffee,55,83,94,44,0,No
+2024-10-27,Nutrain Banana Oats,409,23,65,367,0,No
+2024-10-28,Nutrain Vanilla,117,126,126,117,0,No
+2024-10-28,Nutrain Choco Coffee,44,104,97,51,0,No
+2024-10-28,Nutrain Banana Oats,367,67,68,366,0,No
+2024-10-29,Nutrain Vanilla,117,128,106,139,0,No
+2024-10-29,Nutrain Choco Coffee,51,101,99,53,0,No
+2024-10-29,Nutrain Banana Oats,366,74,60,380,0,No
+2024-10-30,Nutrain Vanilla,139,109,133,115,0,No
+2024-10-30,Nutrain Choco Coffee,53,93,96,50,0,No
+2024-10-30,Nutrain Banana Oats,380,57,66,371,0,No
+2024-10-31,Nutrain Vanilla,115,131,120,126,0,No
+2024-10-31,Nutrain Choco Coffee,50,91,78,63,0,No
+2024-10-31,Nutrain Banana Oats,371,65,51,385,0,No
+2024-11-01,Nutrain Vanilla,126,109,108,127,0,No
+2024-11-01,Nutrain Choco Coffee,63,97,79,81,0,No
+2024-11-01,Nutrain Banana Oats,385,55,56,384,0,No
+2024-11-02,Nutrain Vanilla,127,111,130,108,0,No
+2024-11-02,Nutrain Choco Coffee,81,80,83,78,0,No
+2024-11-02,Nutrain Banana Oats,384,67,68,383,0,No
+2024-11-03,Nutrain Vanilla,108,124,106,126,0,No
+2024-11-03,Nutrain Choco Coffee,78,82,82,78,0,No
+2024-11-03,Nutrain Banana Oats,383,64,69,378,0,No
+2024-11-04,Nutrain Vanilla,126,109,124,111,0,No
+2024-11-04,Nutrain Choco Coffee,78,88,103,63,0,No
+2024-11-04,Nutrain Banana Oats,378,74,54,398,0,No
+2024-11-05,Nutrain Vanilla,111,133,138,106,0,No
+2024-11-05,Nutrain Choco Coffee,63,91,99,55,0,No
+2024-11-05,Nutrain Banana Oats,398,24,64,358,0,No
+2024-11-06,Nutrain Vanilla,106,44,130,20,0,No
+2024-11-06,Nutrain Choco Coffee,55,94,99,50,0,No
+2024-11-06,Nutrain Banana Oats,358,59,61,356,0,No
+2024-11-07,Nutrain Vanilla,20,111,129,2,0,No
+2024-11-07,Nutrain Choco Coffee,50,88,97,41,0,No
+2024-11-07,Nutrain Banana Oats,356,57,51,362,0,No
+2024-11-08,Nutrain Vanilla,2,135,114,23,0,No
+2024-11-08,Nutrain Choco Coffee,41,98,99,40,0,No
+2024-11-08,Nutrain Banana Oats,362,73,57,378,0,No
+2024-11-09,Nutrain Vanilla,23,124,136,11,0,No
+2024-11-09,Nutrain Choco Coffee,40,82,84,38,0,No
+2024-11-09,Nutrain Banana Oats,378,64,65,377,0,No
+2024-11-10,Nutrain Vanilla,11,135,114,32,0,No
+2024-11-10,Nutrain Choco Coffee,38,86,90,34,0,No
+2024-11-10,Nutrain Banana Oats,377,75,53,399,0,No
+2024-11-11,Nutrain Vanilla,32,129,105,56,0,No
+2024-11-11,Nutrain Choco Coffee,34,95,103,26,0,No
+2024-11-11,Nutrain Banana Oats,399,70,58,411,0,No
+2024-11-12,Nutrain Vanilla,56,107,114,49,0,No
+2024-11-12,Nutrain Choco Coffee,26,95,89,32,0,No
+2024-11-12,Nutrain Banana Oats,411,72,60,423,0,No
+2024-11-13,Nutrain Vanilla,49,126,118,57,0,No
+2024-11-13,Nutrain Choco Coffee,32,81,85,28,0,No
+2024-11-13,Nutrain Banana Oats,423,58,55,426,0,No
+2024-11-14,Nutrain Vanilla,57,135,119,73,0,No
+2024-11-14,Nutrain Choco Coffee,28,100,100,28,0,No
+2024-11-14,Nutrain Banana Oats,426,33,52,407,0,No
+2024-11-15,Nutrain Vanilla,73,110,124,59,0,No
+2024-11-15,Nutrain Choco Coffee,28,20,48,0,52,Yes
+2024-11-15,Nutrain Banana Oats,407,57,51,413,0,No
+2024-11-16,Nutrain Vanilla,59,115,107,67,0,No
+2024-11-16,Nutrain Choco Coffee,0,85,85,0,15,Yes
+2024-11-16,Nutrain Banana Oats,413,59,64,408,0,No
+2024-11-17,Nutrain Vanilla,67,119,133,53,0,No
+2024-11-17,Nutrain Choco Coffee,0,94,94,0,5,Yes
+2024-11-17,Nutrain Banana Oats,408,64,54,418,0,No
+2024-11-18,Nutrain Vanilla,53,106,104,55,0,No
+2024-11-18,Nutrain Choco Coffee,0,37,37,0,44,Yes
+2024-11-18,Nutrain Banana Oats,418,28,63,383,0,No
+2024-11-19,Nutrain Vanilla,55,132,107,80,0,No
+2024-11-19,Nutrain Choco Coffee,0,83,81,2,0,No
+2024-11-19,Nutrain Banana Oats,383,20,67,336,0,No
+2024-11-20,Nutrain Vanilla,80,114,113,81,0,No
+2024-11-20,Nutrain Choco Coffee,2,91,93,0,4,Yes
+2024-11-20,Nutrain Banana Oats,336,67,63,340,0,No
+2024-11-21,Nutrain Vanilla,81,135,109,107,0,No
+2024-11-21,Nutrain Choco Coffee,0,103,91,12,0,No
+2024-11-21,Nutrain Banana Oats,340,65,67,338,0,No
+2024-11-22,Nutrain Vanilla,107,111,132,86,0,No
+2024-11-22,Nutrain Choco Coffee,12,105,85,32,0,No
+2024-11-22,Nutrain Banana Oats,338,72,66,344,0,No
+2024-11-23,Nutrain Vanilla,86,114,122,78,0,No
+2024-11-23,Nutrain Choco Coffee,32,92,93,31,0,No
+2024-11-23,Nutrain Banana Oats,344,72,67,349,0,No
+2024-11-24,Nutrain Vanilla,78,135,135,78,0,No
+2024-11-24,Nutrain Choco Coffee,31,100,92,39,0,No
+2024-11-24,Nutrain Banana Oats,349,62,54,357,0,No
+2024-11-25,Nutrain Vanilla,78,125,132,71,0,No
+2024-11-25,Nutrain Choco Coffee,39,95,100,34,0,No
+2024-11-25,Nutrain Banana Oats,357,72,61,368,0,No
+2024-11-26,Nutrain Vanilla,71,125,117,79,0,No
+2024-11-26,Nutrain Choco Coffee,34,83,88,29,0,No
+2024-11-26,Nutrain Banana Oats,368,68,54,382,0,No
+2024-11-27,Nutrain Vanilla,79,123,131,71,0,No
+2024-11-27,Nutrain Choco Coffee,29,103,95,37,0,No
+2024-11-27,Nutrain Banana Oats,382,20,59,343,0,No
+2024-11-28,Nutrain Vanilla,71,132,130,73,0,No
+2024-11-28,Nutrain Choco Coffee,37,98,94,41,0,No
+2024-11-28,Nutrain Banana Oats,343,59,56,346,0,No
+2024-11-29,Nutrain Vanilla,73,116,104,85,0,No
+2024-11-29,Nutrain Choco Coffee,41,98,103,36,0,No
+2024-11-29,Nutrain Banana Oats,346,62,63,345,0,No
+2024-11-30,Nutrain Vanilla,85,119,136,68,0,No
+2024-11-30,Nutrain Choco Coffee,36,80,98,18,0,No
+2024-11-30,Nutrain Banana Oats,345,64,66,343,0,No
+2024-12-01,Nutrain Vanilla,68,119,124,63,0,No
+2024-12-01,Nutrain Choco Coffee,18,84,94,8,0,No
+2024-12-01,Nutrain Banana Oats,343,58,57,344,0,No
+2024-12-02,Nutrain Vanilla,63,105,117,51,0,No
+2024-12-02,Nutrain Choco Coffee,8,93,101,0,0,Yes
+2024-12-02,Nutrain Banana Oats,344,58,58,344,0,No
+2024-12-03,Nutrain Vanilla,51,106,129,28,0,No
+2024-12-03,Nutrain Choco Coffee,0,91,91,0,6,Yes
+2024-12-03,Nutrain Banana Oats,344,75,55,364,0,No
+2024-12-04,Nutrain Vanilla,28,119,123,24,0,No
+2024-12-04,Nutrain Choco Coffee,0,81,81,0,7,Yes
+2024-12-04,Nutrain Banana Oats,364,63,55,372,0,No
+2024-12-05,Nutrain Vanilla,24,122,130,16,0,No
+2024-12-05,Nutrain Choco Coffee,0,100,100,0,2,Yes
+2024-12-05,Nutrain Banana Oats,372,73,52,393,0,No
+2024-12-06,Nutrain Vanilla,16,111,127,0,4,Yes
+2024-12-06,Nutrain Choco Coffee,0,102,92,10,0,No
+2024-12-06,Nutrain Banana Oats,393,61,54,400,0,No
+2024-12-07,Nutrain Vanilla,0,123,115,8,0,No
+2024-12-07,Nutrain Choco Coffee,10,97,83,24,0,No
+2024-12-07,Nutrain Banana Oats,400,65,56,409,0,No
+2024-12-08,Nutrain Vanilla,8,127,107,28,0,No
+2024-12-08,Nutrain Choco Coffee,24,81,89,16,0,No
+2024-12-08,Nutrain Banana Oats,409,70,69,410,0,No
+2024-12-09,Nutrain Vanilla,28,110,132,6,0,No
+2024-12-09,Nutrain Choco Coffee,16,80,86,10,0,No
+2024-12-09,Nutrain Banana Oats,410,73,63,420,0,No
+2024-12-10,Nutrain Vanilla,6,116,122,0,11,Yes
+2024-12-10,Nutrain Choco Coffee,10,96,96,10,0,No
+2024-12-10,Nutrain Banana Oats,420,60,56,424,0,No
+2024-12-11,Nutrain Vanilla,0,27,27,0,109,Yes
+2024-12-11,Nutrain Choco Coffee,10,84,94,0,6,Yes
+2024-12-11,Nutrain Banana Oats,424,14,68,370,0,No
+2024-12-12,Nutrain Vanilla,0,114,114,0,9,Yes
+2024-12-12,Nutrain Choco Coffee,0,31,31,0,66,Yes
+2024-12-12,Nutrain Banana Oats,370,66,68,368,0,No
+2024-12-13,Nutrain Vanilla,0,126,107,19,0,No
+2024-12-13,Nutrain Choco Coffee,0,82,82,0,14,Yes
+2024-12-13,Nutrain Banana Oats,368,72,61,379,0,No
+2024-12-14,Nutrain Vanilla,19,115,110,24,0,No
+2024-12-14,Nutrain Choco Coffee,0,81,81,0,11,Yes
+2024-12-14,Nutrain Banana Oats,379,62,58,383,0,No
+2024-12-15,Nutrain Vanilla,24,48,72,0,46,Yes
+2024-12-15,Nutrain Choco Coffee,0,98,79,19,0,No
+2024-12-15,Nutrain Banana Oats,383,59,59,383,0,No
+2024-12-16,Nutrain Vanilla,0,107,107,0,19,Yes
+2024-12-16,Nutrain Choco Coffee,19,104,97,26,0,No
+2024-12-16,Nutrain Banana Oats,383,68,60,391,0,No
+2024-12-17,Nutrain Vanilla,0,127,127,0,8,Yes
+2024-12-17,Nutrain Choco Coffee,26,96,89,33,0,No
+2024-12-17,Nutrain Banana Oats,391,61,55,397,0,No
+2024-12-18,Nutrain Vanilla,0,124,124,0,11,Yes
+2024-12-18,Nutrain Choco Coffee,33,89,91,31,0,No
+2024-12-18,Nutrain Banana Oats,397,57,54,400,0,No
+2024-12-19,Nutrain Vanilla,0,129,129,0,6,Yes
+2024-12-19,Nutrain Choco Coffee,31,86,94,23,0,No
+2024-12-19,Nutrain Banana Oats,400,71,56,415,0,No
+2024-12-20,Nutrain Vanilla,0,127,127,0,6,Yes
+2024-12-20,Nutrain Choco Coffee,23,105,87,41,0,No
+2024-12-20,Nutrain Banana Oats,415,69,52,432,0,No
+2024-12-21,Nutrain Vanilla,0,125,113,12,0,No
+2024-12-21,Nutrain Choco Coffee,41,93,100,34,0,No
+2024-12-21,Nutrain Banana Oats,432,31,68,395,0,No
+2024-12-22,Nutrain Vanilla,12,128,121,19,0,No
+2024-12-22,Nutrain Choco Coffee,34,93,78,49,0,No
+2024-12-22,Nutrain Banana Oats,395,26,58,363,0,No
+2024-12-23,Nutrain Vanilla,19,113,122,10,0,No
+2024-12-23,Nutrain Choco Coffee,49,80,102,27,0,No
+2024-12-23,Nutrain Banana Oats,363,73,52,384,0,No
+2024-12-24,Nutrain Vanilla,10,109,119,0,16,Yes
+2024-12-24,Nutrain Choco Coffee,27,104,96,35,0,No
+2024-12-24,Nutrain Banana Oats,384,72,68,388,0,No
+2024-12-25,Nutrain Vanilla,0,126,126,0,4,Yes
+2024-12-25,Nutrain Choco Coffee,35,95,94,36,0,No
+2024-12-25,Nutrain Banana Oats,388,61,63,386,0,No
+2024-12-26,Nutrain Vanilla,0,112,112,0,22,Yes
+2024-12-26,Nutrain Choco Coffee,36,90,82,44,0,No
+2024-12-26,Nutrain Banana Oats,386,58,55,389,0,No
+2024-12-27,Nutrain Vanilla,0,120,120,0,15,Yes
+2024-12-27,Nutrain Choco Coffee,44,89,98,35,0,No
+2024-12-27,Nutrain Banana Oats,389,61,69,381,0,No
+2024-12-28,Nutrain Vanilla,0,134,132,2,0,No
+2024-12-28,Nutrain Choco Coffee,35,105,96,44,0,No
+2024-12-28,Nutrain Banana Oats,381,55,54,382,0,No
+2024-12-29,Nutrain Vanilla,2,105,107,0,12,Yes
+2024-12-29,Nutrain Choco Coffee,44,101,91,54,0,No
+2024-12-29,Nutrain Banana Oats,382,22,69,335,0,No
+2024-12-30,Nutrain Vanilla,0,105,105,0,18,Yes
+2024-12-30,Nutrain Choco Coffee,54,90,101,43,0,No
+2024-12-30,Nutrain Banana Oats,335,59,54,340,0,No
+2024-12-31,Nutrain Vanilla,0,112,112,0,21,Yes
+2024-12-31,Nutrain Choco Coffee,43,88,99,32,0,No
+2024-12-31,Nutrain Banana Oats,340,70,52,358,0,No
+2025-01-01,Nutrain Vanilla,0,106,106,0,27,Yes
+2025-01-01,Nutrain Choco Coffee,32,31,63,0,40,Yes
+2025-01-01,Nutrain Banana Oats,358,59,60,357,0,No
+2025-01-02,Nutrain Vanilla,0,122,122,0,4,Yes
+2025-01-02,Nutrain Choco Coffee,0,84,84,0,9,Yes
+2025-01-02,Nutrain Banana Oats,357,23,57,323,0,No
+2025-01-03,Nutrain Vanilla,0,107,107,0,29,Yes
+2025-01-03,Nutrain Choco Coffee,0,101,81,20,0,No
+2025-01-03,Nutrain Banana Oats,323,63,54,332,0,No
+2025-01-04,Nutrain Vanilla,0,43,43,0,78,Yes
+2025-01-04,Nutrain Choco Coffee,20,99,85,34,0,No
+2025-01-04,Nutrain Banana Oats,332,72,52,352,0,No
+2025-01-05,Nutrain Vanilla,0,129,114,15,0,No
+2025-01-05,Nutrain Choco Coffee,34,100,103,31,0,No
+2025-01-05,Nutrain Banana Oats,352,62,58,356,0,No

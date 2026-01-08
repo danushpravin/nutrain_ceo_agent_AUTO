@@ -1,0 +1,7 @@
+[theme]
+primaryColor="#111111"              # Bold black accent
+backgroundColor="#FAFAFA"           # Soft paper white
+secondaryBackgroundColor="#FFFFFF"  # Pure white cards
+textColor="#0B0B0B"                 # Deep near-black text
+font="sans serif"
+
