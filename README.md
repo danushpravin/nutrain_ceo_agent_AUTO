@@ -1,197 +1,203 @@
-┌──────────────────────────────┐
-│        YOU (CEO / User)      │
-│  (Streamlit Chat UI - app.py)│
-└───────────────┬──────────────┘
-                │
-                │  User Question
-                ▼
-┌──────────────────────────────┐
-│        agent.py (BRAIN)      │
-│  - System Prompt (AI COS)   │
-│  - Chat History / Memory   │
-│  - Tool Selection Logic    │
-└───────────────┬──────────────┘
-                │
-                │  1️⃣ First LLM Call
-                │  → "Which tool(s) do I need?"
-                ▼
-┌──────────────────────────────┐
-│        OPENAI LLM            │
-│  - Reads System Prompt      │
-│  - Reads Your Question      │
-│  - Sees Available Tools     │
-│  - Decides Tool Calls       │
-└───────────────┬──────────────┘
-                │
-                │  Tool Call(s)
-                │  e.g.:
-                │  → tool_roas_by_channel
-                │  → tool_churn_rate
-                ▼
-┌──────────────────────────────┐
-│     execute_tool() (agent.py)│
-│  - Dispatches tool name     │
-│  - Calls tools.py function │
-└───────────────┬──────────────┘
-                │
-                ▼
-┌──────────────────────────────┐
-│        tools.py (ADAPTER)   │
-│  - Calls analytics.py      │
-│  - Converts DF → JSON      │
-│  - Returns dict / list     │
-└───────────────┬──────────────┘
-                │
-                ▼
-┌──────────────────────────────┐
-│     analytics.py (BI CORE)  │
-│  - Opens CSV with Pandas   │
-│  - Computes real metrics  │
-│  - Returns DataFrames     │
-└───────────────┬──────────────┘
-                │
-                ▼
-┌──────────────────────────────┐
-│        data/*.csv           │
-│  - sales.csv                │
-│  - customers.csv           │
-│  - marketing.csv           │
-└──────────────────────────────┘
+# AUTO — Autonomous Executive Intelligence
 
-🔁 FULL RUNTIME FLOW (STEP-BY-STEP)
-✅ STEP 1 — You Type a Question (UI Layer)
+AUTO is a **deterministic, AI-assisted executive intelligence system** designed to analyze internal business data and generate **founder-level interpretations and recommendations** across growth, profitability, marketing efficiency, inventory, and operational risk.
 
-From Streamlit (app.py):
+Unlike traditional LLM dashboards or chatbots, AUTO treats the LLM as a **language and synthesis layer**, not a decision-maker. All conclusions are grounded in structured analytics and explicit rules.
 
-response = run_ceo_agent(st.session_state.messages)
+---
+
+## What AUTO Is (and Is Not)
+
+**AUTO is:**
+- A modular decision system that operates on structured business data
+- Deterministic analytics + probabilistic language synthesis
+- Designed to behave like a **central executive layer**, not an assistant
+
+**AUTO is not:**
+- A chatbot over CSVs
+- A black-box ML predictor
+- A generic BI dashboard
+
+---
+
+## High-Level Architecture
+
+AUTO is structured into **four explicit layers**:
+
+Data → Analytics → Interpretation → Recommendation
 
 
-Example question:
+### 1. Data Layer
+- Operates on daily-granularity internal business data
+- Currently uses **synthetic but realistic datasets** covering:
+  - Sales
+  - Marketing
+  - Inventory
+  - Unit economics
+- ~12 months of simulated operations (10k+ rows)
 
-"Where am I losing money?"
+The system is intentionally built to be **data-source agnostic** (real data can replace synthetic data without changing logic).
 
-This becomes:
+---
 
-conversation = [
-  {"role": "user", "content": "Where am I losing money?"}
-]
+### 2. Analytics Layer (Deterministic)
 
-✅ STEP 2 — agent.py Adds the CEO Identity (Brain Setup)
-messages = [
-  {"role": "system", "content": SYSTEM_PROMPT},
-  {"role": "user", "content": "Where am I losing money?"}
-]
+This layer contains **pure, deterministic functions** that compute facts — not opinions.
 
+Examples:
+- Revenue trends and baselines
+- Channel-level ROAS, CAC, net profit
+- Product revenue concentration
+- Inventory stockouts vs revenue impact
+- Channel dependency risk
+- Growth quality (real vs spend-driven)
 
-This tells the LLM:
+Each analytic:
+- Accepts a `DataContext`
+- Has explicit parameters (e.g. `lookback_days`)
+- Returns structured outputs (tables + metrics)
 
-You are the AI Chief of Staff
+No LLM involvement here.
 
-You must use real tools
+---
 
-You must not hallucinate
+### 3. Interpretation Layer (Tool-Driven)
 
-You must give strategic advice
+The interpretation layer:
+- Consumes analytics outputs
+- Applies **explicit business logic and thresholds**
+- Produces:
+  - Structured **flags** (type, severity, values)
+  - Plain-language **interpretations**
 
-✅ STEP 3 — FIRST LLM CALL: “Which tools should I use?”
-response = client.chat.completions.create(
-    model=MODEL,
-    messages=messages,
-    tools=OPENAI_TOOLS,
-    tool_choice="auto",
-)
+Key design choices:
+- Severity is encoded at the analytic level
+- Interpretations are explainable and auditable
+- Multiple interpretations can coexist without overwriting each other
 
+Example flags:
+- `LOW_ROAS`
+- `NEGATIVE_OR_LOW_NET_MARGIN`
+- `CHANNEL_DEPENDENCY_HIGH`
+- `FAKE_GROWTH_SIGNAL`
+- `INVENTORY_STOCKOUT_CRITICAL`
 
-The LLM now mentally does:
+---
 
-“To find money leaks, I need:
+### 4. Recommendation Layer (LLM-Assisted)
 
-Churn rate
+The recommendation layer:
+- Uses the LLM **only after interpretation**
+- Receives:
+  - Flags
+  - Interpretations
+  - Contextual summaries
+- Outputs **actionable recommendations**, not analysis
 
-ROAS by channel”
+Design constraints:
+- The LLM cannot invent metrics
+- The LLM cannot override flags
+- Recommendations must map back to identified risks
 
-So it returns:
+This ensures the system **reasons before it speaks**.
 
-tool_calls = [
-  { name: "tool_churn_rate", arguments: "{}" },
-  { name: "tool_roas_by_channel", arguments: "{}" }
-]
+---
 
-✅ STEP 4 — Python Executes Each Tool
+## What Currently Works
 
-Inside this block:
+### ✅ End-to-End Executive Analysis
+AUTO can already generate:
+- Executive briefs
+- Risk summaries
+- Prioritized problem lists
+- Action-oriented recommendations
 
-result = execute_tool(func, args)
+All grounded in analytics.
 
+---
 
-This calls:
+### ✅ Marketing Efficiency Analysis
+- Multi-channel ROAS, CAC, net profit
+- Spend vs revenue trend comparisons
+- Identification of value-destructive channels
+- Configurable time windows (30 / 60 / 90 / 180 days)
 
-agent.py → tools.py → analytics.py → CSV file
+---
 
+### ✅ Growth Quality Detection
+- Differentiates between:
+  - Real demand-driven growth
+  - Spend-driven or fragile growth
+- Uses baseline comparisons and contribution logic
 
-Example:
+---
 
-tool_roas_by_channel
-→ roas_by_channel(_marketing_df)
-→ computes ROAS
-→ returns DataFrame
-→ converted to JSON
+### ✅ Product & Channel Concentration Risk
+- Detects over-reliance on:
+  - Top SKUs
+  - Single channels
+  - Single regions
+- Assigns severity based on concentration thresholds
 
-✅ STEP 5 — Tool Results Are Injected Back into Chat
+---
 
-This is what the LLM now sees:
+### ✅ Inventory Risk vs Revenue Impact
+- Tracks stockouts at SKU-day level
+- Quantifies revenue loss during stockout periods
+- Flags operational failures with financial impact
 
-{
-  "role": "tool",
-  "name": "tool_roas_by_channel",
-  "content": [
-    {"channel": "Instagram", "ROAS": 0.94},
-    {"channel": "Google", "ROAS": 0.56},
-    {"channel": "Influencers", "ROAS": 0.43}
-  ]
-}
+---
 
+### ✅ Modular, Extensible Tooling
+- Each analytic is isolated and testable
+- New tools can be added without breaking the agent
+- The agent dynamically selects tools based on query intent
 
-and
+---
 
-{
-  "role": "tool",
-  "name": "tool_churn_rate",
-  "content": {"churn_rate": 0.246}
-}
+### ✅ Deterministic + LLM Hybrid Design
+- Analytics are fully deterministic
+- LLM is used strictly for:
+  - Synthesis
+  - Explanation
+  - Recommendation phrasing
 
-✅ STEP 6 — SECOND LLM CALL: “Interpret the Numbers”
+This avoids hallucination and preserves trust.
 
-Now the LLM sees:
+---
 
-Original question
+## Design Principles
 
-Its own tool calls
+- **Determinism before language**
+- **Interpretation before recommendation**
+- **Severity encoded in logic, not prose**
+- **Explainability over cleverness**
+- **Executive usefulness over model novelty**
 
-REAL computed data
+---
 
-Then it reasons:
+## Current Limitations (Intentional)
 
-Churn is high → customer loss
+- Uses simulated data (by design)
+- No automated action execution (advisory only)
+- No UI beyond a minimal Streamlit interface
+- No forecasting models yet (diagnostic first, predictive later)
 
-Google + Influencers ROAS < 1 → losing money
+---
 
-And replies:
+## Why AUTO Exists
 
-“You are losing money due to high churn and inefficient Google & Influencer ads…”
+Most AI business tools answer questions.
 
-✅ This is pure CEO reasoning on real data.
+AUTO is designed to **surface problems you didn’t ask about**, rank them by severity, and recommend what to fix first — the way a strong founder or operator would.
 
-✅ STEP 7 — Final Answer Goes Back to UI
+---
 
-Streamlit displays the final response in chat bubbles.
+## Status
 
-🧩 WHO DOES WHAT (CLEAR SEPARATION OF RESPONSIBILITY)
-File	Role
-data/*.csv	Raw business truth
-analytics.py	Math & business KPIs
-tools.py	Converts KPIs → JSON
-agent.py	Decides what to compute & explains it
-app.py	Chat interface
-OpenAI LLM	Strategic reasoning & communication
-
+**Active development (v2)**  
+Focus areas:
+- Scenario stress testing
+- Memory across time windows
+- Improved prioritization logic
+- Cleaner agent–tool contracts
